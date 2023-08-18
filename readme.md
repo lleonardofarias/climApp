@@ -1,3 +1,1 @@
-Mini program in python that shows the weather and time of a place. Maybe I can try to use django in the project in the future.
-
-For the program to work correctly, just put your weather API in the "config.ini" file, and have fun!
+To use the program, put your weather api in the APPID in the .INI config, and then run the main code in the terminal.
