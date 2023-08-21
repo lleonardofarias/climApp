@@ -14,7 +14,7 @@
  [config.ini]
 
  [Weather]
-appid = _____ (in this box, put your apik_key)
+appid = _____ (in this box, put your api_key)
 ```
 4. Go to Climapp directory
 5. Run the "Main-code.py" in your terminal
