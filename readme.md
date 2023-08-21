@@ -15,4 +15,8 @@
 
  [Weather]
 appid = _____ (in this box, put your apik_key)
+```
+4. Go to Climapp directory
+5. Run the "Main-code.py" in your terminal
+
 
