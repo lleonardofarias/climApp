@@ -2,21 +2,30 @@
 
 > Status: Developing ⚠
 
-### Climapp is an application that uses the help of an api to provide the temperature and climate of the place you want.
+### Climapp is an application that uses an API to provide temperature and climate information for a specific location.
+
+## What is a Climate API?
+
+A Climate API (Application Programming Interface) is a tool that allows different applications, like Climapp, to interact with a weather data service. It's like a bridge that enables the app to request weather-related information from the service and receive it in a format that the app can understand and display. Like OpenWeatherMap API, Weatherbit API, and others.
 
 ## How to run the application?
 
-1. Go to your CLIMATE API and get your API KEY
-2. With the API_KEY in hands, go to the file "config.ini"
-3. In config.ini put your api_key in the param "APPID" like in the exemple below:
+1. **Get your API Key:**
+   - Go to the Climate API website. 
+   - Sign up or log in to get access. 
+   - Look for an option to generate an API Key. It's like a password that the app uses to talk to the API.
 
-```javascript
+2. **Put your API Key in the app:**
+   - Once you have your API Key, go to the "config.ini" file.
+   - Inside the "config.ini" file, you i'll see the section "[Weather]".
+   - You'll see a line that says "appid = _____". Replace the blank with your actual API Key.
+
+Example:
+```ini
  [config.ini]
 
  [Weather]
-appid = _____ (in this box, put your api_key)
-```
-4. Go to Climapp directory
-5. Run the "Main-code.py" in your terminal
+ appid = "YOUR_API_KEY_HERE"
+
 
 
