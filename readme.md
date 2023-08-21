@@ -40,17 +40,27 @@ Example:
  [Weather]
  appid = "YOUR_API_KEY_HERE"
 ```
-3. **Runs the application**
+3. **Run the application:**
+   - Open your terminal or command prompt.
+   - Navigate to the directory where the Climapp files are located.
+   - Use the `cd` command to change the directory. For example, if your Climapp files are on your desktop, you might use:
 
-   - Navigate to the Climapp directory using your terminal or command prompt.
-   - Run the "Main-code.py" file by typing the following command and pressing Enter:
-```
-python Main-code.py
-```
-If you use Windows you might use a command like this:
-```
-python.exe Main-code.py
-```
+
+   ```shell
+   cd ~/Desktop/Climapp
+   ```
+
+   - Replace ~/Desktop/Climapp with the actual path to your Climapp directory.
+
+   - Once you're in the right directory, run the "Main-code.py" file by typing:
+   
+   ```
+   python Main-code.py
+   ```
+   If you use Windows you might use a command like this:
+   ```
+   python.exe Main-code.py
+   ```
 
 
 
